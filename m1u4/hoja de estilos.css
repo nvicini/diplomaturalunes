@@ -1,0 +1,30 @@
+body{
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 20px;
+    margin: auto;
+    width: 600px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: underline 3px #09A7E0;
+}
+.boxes{
+    font-family:'Courier New', Courier, monospace;
+    background-color: gray;
+    padding: 5px;
+    margin: auto;
+    width: 600px;
+    text-align: left;
+    -webkit-box-align: center;
+}
+#formulario{
+    font-size: 20px;
+    color:#09A7E0;
+  }
