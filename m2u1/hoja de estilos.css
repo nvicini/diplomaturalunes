@@ -1,0 +1,81 @@
+/* font-family: 'Source Code Pro', monospace; */
+
+body{
+        text-align: center;
+        font-family: 'Source Code Pro', monospace; 
+}
+p{
+    font-size: 20px;
+    margin: auto;
+    width: 600px;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: 700
+
+}
+.boxes{
+    font-family: 'Source Code Pro', monospace; 
+    font-style: italic;
+    background-color: rgb(194, 192, 192);
+    padding: 5px;
+    margin: auto;
+    width: 590px;
+    text-align: left;
+    border-radius: 20px 0 20px;
+    box-shadow: 0px 5px 5px gray;
+    /* -webkit-box-align: center; */
+}
+ 
+    .btn-grad {background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA  51%, #1D2B64  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 20px 0 20px;
+       /* display: block; */
+         }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+     a{
+        text-decoration: none;
+     }
+
+     #instagram{
+font-size: 40px;
+color: #e8424e; 
+     }
+     #facebook{
+font-size: 40px;
+color: #3b5998
+    }
+     #twitter{
+font-size: 40px;
+color: #00acee
+     }
+
+.titulo{
+    background: rgb(9,167,224);
+    background: linear-gradient(180deg, rgba(9,167,224,1) 0%, rgba(245,128,32,1) 100%);    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 590px;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+
+}
