@@ -19,7 +19,7 @@ div{
     /* align-content: flex-end; */
 
 }
-.item{
+.caja{
     height: 150px;
     width: 150px;
     color: white;
@@ -30,17 +30,17 @@ div{
 
 }
 
-#item1{
+.item1{
     background-color: red;
     /* height: 150px;
     width: 150px; */
 }
-#item2{
+.item2{
     background-color: blue;
     /* height: 150px;
     width: 150px; */
 }
-#item3{
+.item3{
     background-color: green;
     /* height: 150px;
     width: 150px; */
