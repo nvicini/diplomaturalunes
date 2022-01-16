@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: gray;
+}
+div{
+    border: black 10px;
+}
+.contenedor{
+    background-color: white;
+    border: #000 solid;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* align-content: flex-end; */
+
+}
+.item{
+    height: 150px;
+    width: 150px;
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+#item1{
+    background-color: red;
+    /* height: 150px;
+    width: 150px; */
+}
+#item2{
+    background-color: blue;
+    /* height: 150px;
+    width: 150px; */
+}
+#item3{
+    background-color: green;
+    /* height: 150px;
+    width: 150px; */
+}
