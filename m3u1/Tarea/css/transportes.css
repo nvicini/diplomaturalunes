@@ -86,7 +86,7 @@ h2{
     margin-bottom: 1.5em;
 }
 .homeimg img{
-    width: 950px;
+    width: 100%;
 }
 .bienvenidos, .testimonios{
     box-sizing: border-box;
