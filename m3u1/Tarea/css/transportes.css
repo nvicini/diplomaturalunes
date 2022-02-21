@@ -1,0 +1,291 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #00FFC9;
+    padding: 1em 0;
+}
+
+header h1{
+    color: #5271FF;
+font-size: 2.5em;
+font-style: italic;
+font-weight: 100;
+display: inline-block;
+position: relative;
+bottom: 30px;
+}
+
+nav{
+    background-color: #5271FF;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 2em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #E080B4;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+/* Inicio Home */
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.homeimg img{
+    width: 950px;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+    background-color: #ccc;
+    padding: 1em;
+}
+.cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+/* Fin Home */
+
+/* Inicio Nosotros */
+.historia p{
+    font-size: 0.8em;
+}
+.persona{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0.8em 0.1em;
+    max-width: 70%;
+}
+
+.persona h5, .persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: crimson;
+    margin: 0;
+}
+.persona h5{
+    font-size: 0.9em;
+}
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+.persona p{
+    font-size: 0.7em;
+    color: #4444;   
+    margin: 0 1em 1em;
+}
+.persona:first-child{
+    margin-left: 0;
+}
+.personas{
+    overflow: hidden;
+}
+/* Fin Nosotros */
+
+/* Inicio Servicios */
+.servicio{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.servicio .info{
+    width: 75%;
+}
+
+.servicio .info h4{
+    color: #C9E265;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #5271FF;
+    padding-bottom: 0.5em;
+}
+
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicio img{
+    border-radius: 0.8em;
+    width: 200px;
+    height: auto;
+}
+
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info{
+    float: left;
+}
+
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: left;
+}
+
+/* Fin Servicios */
+
+/* Inicio Galeria */
+
+.galeria .foto{
+display:inline-block;
+width: 48%;
+float: left;
+margin: 1em 0.1em 2.5%;
+border: 1px solid #ddd;
+padding: 0.3em;
+box-sizing: border-box;
+}
+
+.galeria .foto img{
+    display: block;
+    width: 100%;
+}
+
+.galeria .foto:nth-child(2n+1){
+    margin-left: 0;
+    /* border-color: red; */
+}
+/* Fin Galeria */
+
+/* Inicio Contacto */
+.columna{
+    width: 50%;
+    padding: 0.625em;
+    box-sizing: border-box;
+}
+.columna.left{
+    border-right: 1px solid #ddd;
+}
+
+.columna.right p{
+    font-size: 0.8em;
+}
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    display: inline-block;
+    vertical-align: top;
+    width: 16%;
+}
+
+.formulario input, .formulario textarea{
+   background: #ddd;
+   border-radius: 5px;
+   border: 1px solid #999;
+   font-size: 0.8em;
+   padding: 0.4em 0.6em;
+    width: 78%;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 18em;
+}
+
+.formulario input[type="submit"]{
+    background: #5271FF ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: #E080B4;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+    text-align: center;
+    width: auto;
+    float: right;
+}
+
+/* Fin Contacto */
